@@ -12,3 +12,14 @@ export function renderStopLinks(stop) {
     div.append(a);
     return div;
 }
+
+export function findById(id, arr) {
+
+    console.log(id);
+    console.log(arr);
+    for (let item of arr) {
+        if (id === item.id) {
+            return item;
+        }
+    }
+}
