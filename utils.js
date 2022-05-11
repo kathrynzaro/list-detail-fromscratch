@@ -15,8 +15,6 @@ export function renderStopLinks(stop) {
 
 export function findById(id, arr) {
 
-    console.log(id);
-    console.log(arr);
     for (let item of arr) {
         if (id === item.id) {
             return item;

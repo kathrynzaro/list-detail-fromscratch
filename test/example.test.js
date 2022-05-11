@@ -9,7 +9,7 @@ const test = QUnit.test;
 test('test render stop function', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = `<div class="stop"><a href="./stop-detail/?id=1"><img src="./assets/chapel.jpg"></a></div>`;
+    const expected = `<div class="stop"><a href="./stop-detail/?id=1"><img src="../assets/chapel.jpg"></a></div>`;
     
     //Act 
     // Call the function you're testing and set the result to a const
