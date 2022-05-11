@@ -1,5 +1,5 @@
-import { findById } from "../utils.js";
-import { stops } from "../stop-detail.js";
+import { findById } from '../utils.js';
+import { stops } from '../stop-detail.js';
 
 const params = new URLSearchParams(window.location.search);
 const stop = findById(params.get('id'), stops);
